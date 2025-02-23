@@ -1,0 +1,145 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: black;
+    color: white;
+}
+
+/* Header styles */
+header {
+    background-color: #970404;
+    color: black;
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border: 2px solid black;
+    border-radius: 25px;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    background-color: black;
+    color: #970404;
+}
+
+/* Main content */
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+/* Section styles */
+section {
+    background-color: black;
+    border-radius: 10px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 5px white;
+}
+
+section h2 {
+    color: #970404;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid #970404;
+    padding-bottom: 0.5rem;
+}
+
+section p {
+    margin-bottom: 1rem;
+}
+
+/* Values grid */
+.values-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.value-item {
+    padding: 1.5rem;
+    border: 1px solid black;
+    border-radius: 8px;
+    transition: transform 0.2s ease;
+}
+
+.value-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px white (0, 0, 0, 0.1);
+}
+
+.value-item h3 {
+    color: #970404;
+    margin-bottom: 1rem;
+}
+
+/* CTA section */
+.visit-section {
+    text-align: center;
+}
+
+.cta-buttons {
+    margin-top: 2rem;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #970404;
+    color: black;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #970404;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px white (0, 0, 0, 0.2);
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 2rem;
+    background-color: black;
+    color: black;
+    margin-top: 2rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+    
+    section {
+        padding: 1.5rem;
+    }
+    
+    .values-grid {
+        grid-template-columns: 1fr;
+    }
+} 

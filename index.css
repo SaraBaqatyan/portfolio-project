@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    }
+    
+    header {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    }
+    
+    .logo {
+    width: 100px;
+    height: 80px;
+    margin: 0 auto;
+    display: block;
+    mix-blend-mode: screen;
+    margin-bottom: 1rem;
+    }
+    
+    .menu-section {
+    background-color: black;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    }
+    
+    .menu-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+    }
+    
+    .menu-item {
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    }
+    
+    .menu-item-image {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    object-position: center;
+    border-radius: 8px;
+    }
+    
+    footer {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    }
+    
+    .hero {
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1630384060421-cb20d0e0649d');
+        background-size: cover;
+        background-position: center;
+        height: 60vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        text-align: center;
+    }
+
+    .main-nav {
+        background-color: black;
+        padding: 1rem 0;
+    }
+    
+    .main-nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+    }
+    
+    .main-nav a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 0.5rem 1rem;
+        border-radius: 4px;
+        transition: background-color 0.3s;
+    }
+    
+    .main-nav a:hover,
+    .main-nav a.active {
+        background-color: black
+    }
+
+
+    /* Adding styling for the Order Now button */
+.order-btn {
+    background-color: #ff8c00; /* Orange color */
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.order-btn:hover {
+    background-color: #ff6600; /* Darker orange for hover effect */
+}
+
+/* Hero section with a background */
+.hero {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1630384060421-cb20d0e0649d');
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
