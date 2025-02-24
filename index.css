@@ -63,14 +63,18 @@
     }
     
     .hero {
-        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1630384060421-cb20d0e0649d');
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('Img4.jpg');
         background-size: cover;
         background-position: center;
-        height: 60vh;
+        height: 100vh;
         display: flex;
         align-items: center;
         justify-content: center;
         color: white;
+        text-align: center;
+        background-color: black;
+        color: white;
+        padding: 1rem;
         text-align: center;
     }
 
@@ -121,7 +125,7 @@
 
 /* Hero section with a background */
 .hero {
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1630384060421-cb20d0e0649d');
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('Img4.jpg');
     background-size: cover;
     background-position: center;
     height: 60vh;
